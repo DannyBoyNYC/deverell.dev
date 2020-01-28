@@ -1,20 +1,14 @@
 ---
 title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+date: "2020-01-28T22:40:32.169Z"
+description: An account of how I applied TailWind to this Blog.
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+It all started with a colleague's recommendation that I use Tailwind and PostCSS together to style content. Initially I ignored it but TailWind kept on creeping back into conversations. The most recent occured while attending a Egghead Zoom conference when Ken Dodds mentioned that he would include only Tailwind in his styling section for the Updated React for Beginners course on Egghead. Taylor Bell sent out a link to a [collection of videos](https://egghead.io/playlists/introduction-to-tailwind-and-the-utility-first-workflow-0b697b10) by Tailwind's creator - Adam Wathan.
 
-## On deer horse aboard tritely yikes and much
+## Setup
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Tailwind is a PostCSS plugin. 
 
 - This however showed weasel
 - Well uncritical so misled
