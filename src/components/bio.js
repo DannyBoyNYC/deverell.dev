@@ -55,7 +55,7 @@ const Bio = () => {
       />
       <p>
         Written by <strong>{author}</strong> who lives and works in Brooklyn
-        building useful things.
+        building things out of code for fun and profit.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter
