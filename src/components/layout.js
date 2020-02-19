@@ -24,7 +24,7 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title} {rootPath}
+          {title}
         </Link>
       </h1>
     )
