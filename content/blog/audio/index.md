@@ -12,13 +12,13 @@ PS Audio Trio C-100 control amplifier
 Usher speakers
 
 ## Living Room
-Pioneer 1250SX - Amplifier one
-Crown XLS2502 - amplifier two - [Crown XLS2502 Stereo Amplifier Review | Audio Science Review (ASR) Forum](https://www.audiosciencereview.com/forum/index.php?threads/crown-xls2502-stereo-amplifier-review.10627/)
-Conrad Johnson Sonographe SC-1 - preamplifier
-Shiit Gungnir - DAC 
-Infinity Kappa 8.1 Series II speakers
-Thorens TD125 Long Base turntable with Ortofon tone arm and cartridge. Special order from Vinyl Nirvana
-Thorens step up transformer
+- Pioneer 1250SX - Amplifier one - $1200
+- Crown XLS2502 - amplifier two - [Crown XLS2502 Stereo Amplifier Review | Audio Science Review (ASR) Forum](https://www.audiosciencereview.com/forum/index.php?threads/crown-xls2502-stereo-amplifier-review.10627/) -  $650
+- Conrad Johnson Sonographe SC-1 - FET preamplifier - $300
+- Shiit Gungnir - DAC  - $750
+- Infinity Kappa 8.1 Series II speakers - $450
+- Thorens TD125 Long Base turntable with Ortofon tone arm and cartridge. Special order from Vinyl Nirvana - $5000
+- Thorens step up transformer - $300
 
 ## Dining Room
 Teac AX-501 amplifier - [Review and Measurements of Teac AX-501 Amplifier | Audio Science Review (ASR) Forum](https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-teac-ax-501-amplifier.7442/)
