@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -59,11 +59,7 @@ export const pageQuery = graphql`
     file(relativePath: { eq: "Devopop_1296x.jpg" }) {
       childImageSharp {
         fluid {
-          base64
-          aspectRatio
-          src
-          srcSet
-          sizes
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -84,18 +80,3 @@ export const pageQuery = graphql`
     }
   }
 `
-// const devo = useStaticQuery(graphql`
-//   query {
-//     file(relativePath: { eq: "Devopop_1296x.jpg" }) {
-//       childImageSharp {
-//         fluid {
-//           base64
-//           aspectRatio
-//           src
-//           srcSet
-//           sizes
-//         }
-//       }
-//     }
-//   }
-// `)
