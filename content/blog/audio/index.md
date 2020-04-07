@@ -15,9 +15,11 @@ Usher speakers
 - Pioneer 1250SX - Amplifier one - $1200
 - Crown XLS2502 - amplifier two - [Crown XLS2502 Stereo Amplifier Review | Audio Science Review (ASR) Forum](https://www.audiosciencereview.com/forum/index.php?threads/crown-xls2502-stereo-amplifier-review.10627/) -  $650
 - Conrad Johnson Sonographe SC-1 - FET preamplifier - $300
+![](index/3D96CC87-4331-438A-98B3-03BABC59E826.png)
+
 - Shiit Gungnir - DAC  - $750
 - Infinity Kappa 8.1 Series II speakers - $450
-- Thorens TD125 Long Base turntable with Ortofon tone arm and cartridge. Special order from Vinyl Nirvana - $5000
+- Thorens TD125 Long Base turntable with Ortofon tone arm and SPU #1 cartridge. Special order from Vinyl Nirvana - $5000
 - Thorens step up transformer - $300
 
 ## Dining Room
