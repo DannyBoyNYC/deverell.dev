@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Applied Procrastination`,
     author: `Daniel Deverell`,
-    description: `A notepad for web design and development`,
+    description: `A platform for experiementing with Gatsby, React, web design and development`,
     siteUrl: `https://deverell.dev/`,
     social: {
       twitter: `danieldeverell`,
