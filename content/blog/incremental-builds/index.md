@@ -1,7 +1,7 @@
 ---
 title: Incremental Builds
 date: "2020-04-29"
-description: An account of what I learned when I investigated incemental builds.
+description: An account of what I learned when I investigated incremental builds.
 ---
 
 Since I was using an old template I went ahead and updated all dependencies only to find that Helmet was now a named export.
@@ -36,7 +36,7 @@ Adding `--log-pages` and `--write-to-file` and running `yarn build`.
 
 Nothing to remark on in the log. No additional logging, no `newPages.txt` or `deletedPages.txt` in `.cache`. Probably because I haven't created any new pages. But I DID edit this one. 
 
-```
+```sh
 success Re-building development bundle - 0.896s
 info changed file at /Users/danieldeverell/Desktop/_personal/content/blog/incremental-builds/index.md
 success createPages - 0.037s
@@ -63,4 +63,8 @@ Make some small edits to an article.
 
 Let's push this sucker.
 
-![First test](./Screen Shot 2020-04-29 at 12.19.03 PM.png)
+![First test](./Screen Shot 2020-04-29 at 12.51.46 PM.png)
+
+Nada, zilch, nothing. Time for a webinar! 
+
+GoToWebinar - This Changes Everything: Incremental Builds in Gatsby
