@@ -6,45 +6,49 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
+import Hero from "../components/hero"
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <Bio />
-      <Img fluid={data.file.childImageSharp.fluid} alt="Devo poster" />
+    <>
+      <Hero />
+      <Layout location={location} title={siteTitle}>
+        <SEO title="All posts" />
+        <Bio />
+        <Img fluid={data.file.childImageSharp.fluid} alt="Devo poster" />
 
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
-        return (
-          <article key={node.fields.slug}>
-            <header>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>{node.frontmatter.date}</small>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </section>
-          </article>
-        )
-      })}
-    </Layout>
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          return (
+            <article key={node.fields.slug}>
+              <header>
+                <h3
+                  style={{
+                    marginBottom: rhythm(1 / 4),
+                  }}
+                >
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <small>{node.frontmatter.date}</small>
+              </header>
+              <section>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: node.frontmatter.description || node.excerpt,
+                  }}
+                />
+              </section>
+            </article>
+          )
+        })}
+      </Layout>
+    </>
   )
-  // }
 }
 
 export default BlogIndex
@@ -58,8 +62,8 @@ export const pageQuery = graphql`
     }
     file(relativePath: { eq: "Devopop_1296x.jpg" }) {
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
+        fluid(maxWidth: 200) {
+          ...GatsbyImageSharpFluid_withWebp
         }
       }
     }

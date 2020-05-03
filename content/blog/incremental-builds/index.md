@@ -57,13 +57,13 @@ success write out requires - 0.004s
 
 Let's push this sucker.
 
-![First test](./Screen Shot 2020-04-29 at 12.19.03 PM.png)
+![First test](firsttest.png)
 
 Make some small edits to an article.
 
 Let's push this sucker.
 
-![First test](./Screen Shot 2020-04-29 at 12.51.46 PM.png)
+![Second test](./secondtest.png)
 
 Nada, zilch, nothing. Time for a webinar! 
 

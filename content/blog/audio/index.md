@@ -26,7 +26,7 @@ description: "A list of all the audio junk I've acquired over the years."
 - Crown XLS2502 - amplifier two - [Crown XLS2502 Stereo Amplifier Review | Audio Science Review (ASR) Forum](https://www.audiosciencereview.com/forum/index.php?threads/crown-xls2502-stereo-amplifier-review.10627/) - \$475
 - Conrad Johnson Sonographe SC-1 - FET preamplifier - \$300
 
-![Conrad](./conrad-johnson-preamp.png)
+![Conrad](./conrad-johnson-preamp.png) 
 
 - Shiit Gungnir - DAC - \$750
 - Infinity Kappa 8.1 Series II speakers - \$450
