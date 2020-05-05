@@ -33,13 +33,19 @@ module.exports = {
               maxWidth: 590,
             },
           },
+          // {
+          //   resolve: `gatsby-remark-responsive-iframe`,
+          //   options: {
+          //     wrapperStyle: `margin-bottom: 1.0725rem`,
+          //   },
+          // },
           {
-            resolve: `gatsby-remark-responsive-iframe`,
+            resolve: `gatsby-remark-prismjs`,
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
+              aliases: { sh: "bash" },
+              showLineNumbers: true,
             },
           },
-          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],

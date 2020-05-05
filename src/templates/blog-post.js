@@ -22,10 +22,10 @@ const BlogPostTemplate = (props) => {
       <article>
         <header>
           <h1
-          // style={{
-          //   marginTop: rhythm(1),
-          //   marginBottom: 0,
-          // }}
+            style={{
+              marginTop: rhythm(1),
+              marginBottom: 0,
+            }}
           >
             {post.frontmatter.title}
           </h1>

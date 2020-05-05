@@ -31,12 +31,11 @@ const Hero = () => {
         style={{
           padding: "3rem",
           ...scale(1.5),
-          maxWidth: "720px",
           paddingTop: "4rem",
           margin: 0,
         }}
       >
-        Applied Procrastination
+        <span style={{ display: "block" }}>Applied</span> Procrastination
       </h1>
     </BackgroundImage>
   )

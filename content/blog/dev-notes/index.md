@@ -28,7 +28,7 @@ Images are referenced within the post as `![Conrad](./conrad-johnson-preamp.png)
 
  Discovered:
 
- `resolve: `gatsby-plugin-manifest`,` - a tool for managing `.ico` files
+ `resolve: 'gatsby-plugin-manifest',` - a tool for managing `.ico` files
 
  Added:
 
