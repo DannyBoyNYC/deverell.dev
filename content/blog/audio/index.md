@@ -43,7 +43,7 @@ Project Idea: Repair the Pioneer's radio
 - Teac AX-501 amplifier - [Review and Measurements of Teac AX-501 Amplifier | Audio Science Review (ASR) Forum](https://www.audiosciencereview.com/forum/index.php?threads/review-and-measurements-of-teac-ax-501-amplifier.7442/)
 - Teac UD-501 dac - [Archimago’s Musings: MEASUREMENTS: Digital Filters and Impulse Response… (TEAC UD-501)](https://archimago.blogspot.com/2013/06/measurements-digital-filters-and.html)
 - RaspberryPi / Allo transporter // Volumio
-- Home made speakers with ScanSpeak? drivers
+- Home made speakers with ScanSpeak drivers [Madisound](https://www.madisoundspeakerstore.com/2-way-speaker-kits/scan-speak-rediscovery-ii-kit/)
 - Teac PD-301CD PLAYER / TUNER - \$250
 
 Project Idea: Connect dac and amp via RCA with the MiniDSP between them. Run correction. Connect the TV.
