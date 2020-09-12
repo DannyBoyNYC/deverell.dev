@@ -35,7 +35,7 @@ const BlogPostTemplate = (props) => {
               display: `block`,
               marginBottom: rhythm(1),
               color: "red",
-              background: transparent,
+              background: "transparent",
             }}
           >
             {post.frontmatter.date}
