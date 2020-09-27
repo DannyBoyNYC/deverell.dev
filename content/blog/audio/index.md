@@ -55,7 +55,8 @@ Project Idea: Connect dac and amp via RCA with the MiniDSP between them. Run cor
 - Yamaha amplifier
   ![Yamaha](./yamaha.jpg)
 
-- Many speakers
+- Many speakers - mostly home made
+- [Speedsters](https://sites.google.com/site/undefinition/speedster) by Paul Carmody
 
 ## Misc
 
