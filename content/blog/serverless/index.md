@@ -85,12 +85,21 @@ async function initialize() {
 
 ## Sending and Receiving Data
 
-Get the data from the query string parameters. In the ƒ:
+Get the data from the query string parameters. In the serverless ƒ:
 
 ```js
-exports.handler = async ({ queryStringParameters }) => {
-  const { id } = queryStringParameters;
+// hello.js
+exports.handler = async (event) => {
+  console.log(event.queryStringParameters)
+  const { text } = event.queryStringParameters
+  return {
+    statusCode: 200,
+    body: `You said ${text}`,
+  }
+}
 ```
+
+Now `localhost:62094/.netlify/functions/hello?test=test&num=1` will log to the console (an object - key/string value)
 
 ## Resources
 
@@ -113,3 +122,8 @@ Peek inside a JWT at
 Netlify Identity Widget Docs
 
 [GitHub - netlify/netlify-identity-widget: A zero config, framework free Netlify Identity widget](https://github.com/netlify/netlify-identity-widget)
+
+- [Netlify Functions](https://www.netlify.com/products/functions/?utm_source=fem-sls&utm_medium=functions-jl&utm_campaign=devex)
+- [Netlify Identity](https://docs.netlify.com/visitor-access/identity/?utm_source=fem-sls&utm_medium=functions-jl&utm_campaign=devex)
+- [Hasura](https://cloud.hasura.io/)
+- [Heroku](https://www.heroku.com/)
