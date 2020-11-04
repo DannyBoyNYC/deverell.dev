@@ -30,11 +30,12 @@ const BlogPostTemplate = (props) => {
             {post.frontmatter.title}
           </h1>
           <p
-          // style={{
-          //   ...scale(-1 / 5),
-          //   display: `block`,
-          //   marginBottom: rhythm(1),
-          // }}
+            style={{
+              ...scale(-1 / 5),
+              display: `block`,
+              marginBottom: rhythm(1),
+            }}
+            booyah
           >
             {post.frontmatter.date}
           </p>
