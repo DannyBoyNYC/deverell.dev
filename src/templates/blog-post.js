@@ -35,7 +35,6 @@ const BlogPostTemplate = (props) => {
               display: `block`,
               marginBottom: rhythm(1),
             }}
-            booyah
           >
             {post.frontmatter.date}
           </p>

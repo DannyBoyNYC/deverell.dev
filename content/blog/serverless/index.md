@@ -40,8 +40,20 @@ And then use standard DOM manipulation:
 
 `element.querySelector("h2").innerText = movie.title`
 
-- Netlify toml file specifies the func directory
+- Netlify toml file specifies the func directory specifies build command, publish directory and functions directory.
 - `$ ntl dev` runs the dev server
+
+```toml
+[build]
+  functions = 'functions'
+  command = "npm run build"
+  publish = "public"
+
+[[redirects]]
+  from = '/api/*'
+  to = '/.netlify/functions/:splat'
+  status = 200
+```
 
 Functions are written using CommonJS:
 
@@ -99,7 +111,13 @@ exports.handler = async (event) => {
 }
 ```
 
-Now `localhost:62094/.netlify/functions/hello?test=test&num=1` will log to the console (an object - key/string value)
+Now `localhost:62094/.netlify/functions/hello?test=test&num=1` will display a string in the browser and log to the console (an object - key/string value):
+
+`{ text: 'Hello', munber: '3' }`
+
+
+
+---
 
 ## Resources
 
