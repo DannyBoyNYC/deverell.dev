@@ -1,7 +1,6 @@
 import React from "react"
 import BackgroundImage from "gatsby-background-image"
 import { graphql, useStaticQuery } from "gatsby"
-import { rhythm, scale } from "../utils/typography"
 
 const Hero = () => {
   const { image } = useStaticQuery(graphql`
@@ -16,28 +15,24 @@ const Hero = () => {
     }
   `)
   return (
-    <BackgroundImage
-      tag="div"
-      fluid={image.sharp.fluid}
-      fadeIn="soft"
-      style={{
-        width: "100vw",
-        height: "420px",
-        backgroundPosition: "top 36% center",
-        backgroundSize: "cover",
-      }}
-    >
-      <h1
+    <header>
+      <BackgroundImage
+        tag="div"
+        fluid={image.sharp.fluid}
+        fadeIn="soft"
         style={{
-          padding: "3rem",
-          ...scale(1.5),
-          paddingTop: "4rem",
-          margin: 0,
+          width: "100vw",
+          height: "420px",
+          backgroundPosition: "top 36% center",
+          backgroundSize: "cover",
         }}
       >
-        <span style={{ display: "block" }}>Applied</span> Procrastination
-      </h1>
-    </BackgroundImage>
+        <h1>
+          <span style={{ display: "block" }}>Applied</span> Procrastination
+        </h1>
+      </BackgroundImage>
+    </header>
+    
   )
 }
 

@@ -4,7 +4,8 @@ import Img from "gatsby-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+
+import '../styles/styles.min.css'
 
 import Hero from "../components/hero"
 
@@ -27,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
               <header>
                 <h3
                   style={{
-                    marginBottom: rhythm(1 / 4),
+                    marginBottom: "2rem",
                   }}
                 >
                   <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
@@ -75,7 +76,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            # date(formatString: "MMMM DD, YYYY")
             title
             description
           }

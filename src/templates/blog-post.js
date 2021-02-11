@@ -4,7 +4,6 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
 
 // import Image from "gatsby-image"
 
@@ -23,7 +22,7 @@ const BlogPostTemplate = (props) => {
         <header>
           <h1
             style={{
-              marginTop: rhythm(1),
+              marginTop: "1.74rem",
               marginBottom: 0,
             }}
           >
@@ -31,9 +30,9 @@ const BlogPostTemplate = (props) => {
           </h1>
           <p
             style={{
-              ...scale(-1 / 5),
+              // ...scale(-1 / 5),
               display: `block`,
-              marginBottom: rhythm(1),
+              marginBottom: "1rem",
             }}
           >
             {post.frontmatter.date}
@@ -96,7 +95,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        # date(formatString: "MMMM DD, YYYY")
         description
       }
     }
