@@ -1,1 +1,0 @@
-https://dev.to/fabiorosado/hide-your-api-keys-with-netlify-functions-93m
