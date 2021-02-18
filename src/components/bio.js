@@ -1,13 +1,11 @@
 /**
- * Bio component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
+ * Bio component queries for data using Gatsby's useStaticQuery component
+ * https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import Image from "gatsby-image";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -28,20 +26,21 @@ const Bio = () => {
         }
       }
     }
-  `)
+  `);
 
-  const { author, social } = data.site.siteMetadata
+  const { author, social } = data.site.siteMetadata;
   return (
     <div
       style={{
         display: `flex`,
+        marginBottom: "2rem",
       }}
     >
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
         style={{
-          marginBottom: 0,
+          marginRight: "0.5rem",
           minWidth: 50,
           borderRadius: `100%`,
         }}
@@ -49,15 +48,13 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>
-        The playground of <strong>{author}</strong> who lives and works in
-        Brooklyn building things out of code for fun and profit.{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You can follow him on Twitter.
-        </a>
+      <p style={{ margin: 0 }}>
+        The playground of {author} who lives and works in Brooklyn building
+        things out of code for fun and profit. You can follow him on
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter.</a>
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default Bio
+export default Bio;

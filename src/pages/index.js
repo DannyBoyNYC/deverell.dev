@@ -1,17 +1,17 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import { Link, graphql } from "gatsby";
+import Img from "gatsby-image";
+import Bio from "../components/bio";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-import '../styles/styles.min.css'
+import "../styles/styles.min.css";
 
-import Hero from "../components/hero"
+import Hero from "../components/hero";
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
+  const siteTitle = data.site.siteMetadata.title;
+  const posts = data.allMarkdownRemark.edges;
 
   return (
     <>
@@ -22,7 +22,7 @@ const BlogIndex = ({ data, location }) => {
         <Img fluid={data.file.childImageSharp.fluid} alt="Devo poster" />
 
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const title = node.frontmatter.title || node.fields.slug;
           return (
             <article key={node.fields.slug}>
               <header>
@@ -45,14 +45,14 @@ const BlogIndex = ({ data, location }) => {
                 />
               </section>
             </article>
-          )
+          );
         })}
       </Layout>
     </>
-  )
-}
+  );
+};
 
-export default BlogIndex
+export default BlogIndex;
 
 export const pageQuery = graphql`
   query {
@@ -84,4 +84,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

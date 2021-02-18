@@ -1,6 +1,6 @@
-import React from "react"
-import BackgroundImage from "gatsby-background-image"
-import { graphql, useStaticQuery } from "gatsby"
+import React from "react";
+import BackgroundImage from "gatsby-background-image";
+import { graphql, useStaticQuery } from "gatsby";
 
 const Hero = () => {
   const { image } = useStaticQuery(graphql`
@@ -13,7 +13,7 @@ const Hero = () => {
         }
       }
     }
-  `)
+  `);
   return (
     <header>
       <BackgroundImage
@@ -32,8 +32,7 @@ const Hero = () => {
         </h1>
       </BackgroundImage>
     </header>
-    
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
