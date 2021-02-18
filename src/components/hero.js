@@ -22,8 +22,8 @@ const Hero = () => {
         fadeIn="soft"
         style={{
           width: "100vw",
-          height: "420px",
-          backgroundPosition: "top 36% center",
+          height: "660px",
+          backgroundPosition: "top 46% center",
           backgroundSize: "cover",
         }}
       >

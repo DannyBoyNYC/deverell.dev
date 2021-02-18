@@ -1,16 +1,16 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from "react";
+import { Link, graphql } from "gatsby";
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Bio from "../components/bio";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
 // import Image from "gatsby-image"
 
 const BlogPostTemplate = (props) => {
-  const post = props.data.markdownRemark
-  const siteTitle = props.data.site.siteMetadata.title
-  const { previous, next } = props.pageContext
+  const post = props.data.markdownRemark;
+  const siteTitle = props.data.site.siteMetadata.title;
+  const { previous, next } = props.pageContext;
 
   return (
     <Layout location={props.location} title={siteTitle}>
@@ -20,31 +20,11 @@ const BlogPostTemplate = (props) => {
       />
       <article>
         <header>
-          <h1
-            style={{
-              marginTop: "1.74rem",
-              marginBottom: 0,
-            }}
-          >
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              // ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: "1rem",
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
+          <h1>{post.frontmatter.title}</h1>
+          <p>{post.frontmatter.date}</p>
         </header>
-        {/* <Image /> */}
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-        // style={{
-        //   marginBottom: rhythm(1),
-        // }}
-        />
+        <hr />
         <footer>
           <Bio />
         </footer>
@@ -77,10 +57,10 @@ const BlogPostTemplate = (props) => {
         </ul>
       </nav>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -100,4 +80,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
