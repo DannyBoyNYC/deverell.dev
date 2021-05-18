@@ -32,6 +32,11 @@ description: "A list of all the audio junk I've acquired over the years."
 
 - Shiit Gungnir - DAC - \$750
 - Infinity Kappa 8.1 Series II speakers - \$450
+  ![Infinity Pic](./infinity/1.jpg)
+  ![Infinity Pic](./infinity/2.jpg)
+  ![Infinity Pic](./infinity/3.jpg)
+  ![Infinity Pic](./infinity/4.jpg)
+  ![Infinity Pic](./infinity/5.jpg)
 - Thorens TD125 Long Base turntable - Special order from Vinyl Nirvana - \$5000
 - Ortofon tone arm
 - SPU #1 cartridge - \$ see above - retipped by Sound Smith
