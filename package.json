@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "deverell.dev",
   "private": true,
   "description": "The playground of Daniel Deverell who lives and works in Brooklyn building things out of code for Data for the public good. You can follow him on Twitter.",
   "version": "0.1.0",
   "author": "Daniel Deverell <daniel.deverell@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
   "dependencies": {
     "gatsby": "^2.32.3",
     "gatsby-background-image": "^1.4.1",
@@ -35,7 +32,7 @@
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "gatsby"
+    "Gatsby"
   ],
   "license": "MIT",
   "main": "n/a",
@@ -49,7 +46,6 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   }
 }
