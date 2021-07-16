@@ -1,24 +1,32 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import Img from "gatsby-image";
+// import Img from "gatsby-image";
 import Bio from "../components/bio";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
+// import Layout from "../components/layout";
+// import SEO from "../components/seo";
 
 import "../styles/styles.min.css";
 
-import Hero from "../components/hero";
+// import Hero from "../components/hero";
+
+const styles = {
+  backgroundColor: "#004a86",
+};
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
 
   return (
-    <>
-      <Hero />
+    <div>
+      <Bio />
+      {/* https://www.deverell.dev/node-examples/ */}
+      {/* https://www.deverell.dev/expressjs/ */}
+      {/* https://www.deverell.dev/audio/ */}
+      {/* <Hero />
       <Layout location={location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
+        
         <Img fluid={data.file.childImageSharp.fluid} alt="Devo poster" />
 
         {posts.map(({ node }) => {
@@ -43,8 +51,8 @@ const BlogIndex = ({ data, location }) => {
             </article>
           );
         })}
-      </Layout>
-    </>
+      </Layout> */}
+    </div>
   );
 };
 

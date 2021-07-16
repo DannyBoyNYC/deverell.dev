@@ -12,7 +12,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 250, height: 250) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -30,28 +30,17 @@ const Bio = () => {
 
   const { author, social } = data.site.siteMetadata;
   return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: "2rem",
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginRight: "0.5rem",
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
-      <p style={{ margin: 0 }}>
-        The playground of {author} who lives and works in Brooklyn building
-        things out of code for fun and profit. You can follow him on
-        <a href={`https://twitter.com/${social.twitter}`}>Twitter.</a>
+    <div className="bio">
+      <Image fixed={data.avatar.childImageSharp.fixed} alt={author} />
+      <h1>Hi! I'm Daniel Deverell</h1>
+      <p>
+        You've reached the playground of {author} who lives and works in
+        Brooklyn building things out of code for fun and profit.
+      </p>
+      <p>
+        You can follow him on{" "}
+        <a href="https://github.com/DannyBoyNYC">Github</a> and{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter.</a> or
       </p>
     </div>
   );
