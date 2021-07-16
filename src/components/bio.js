@@ -42,7 +42,7 @@ const Bio = () => {
       <p>
         You can follow him on{" "}
         <a href="https://github.com/DannyBoyNYC">Github</a> and{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>Twitter.</a> or
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter.</a>
       </p>
     </div>
   );
