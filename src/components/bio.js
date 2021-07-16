@@ -4,6 +4,7 @@
  */
 
 import React from "react";
+import SEO from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 
@@ -31,6 +32,7 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata;
   return (
     <div className="bio">
+      <SEO title="Daniel Deverell" />
       <Image fixed={data.avatar.childImageSharp.fixed} alt={author} />
       <h1>Hi! I'm Daniel Deverell</h1>
       <p>
