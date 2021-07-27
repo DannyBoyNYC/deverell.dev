@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby";
 
 import Bio from "../components/bio";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 // import Image from "gatsby-image"
 
@@ -14,7 +14,7 @@ const BlogPostTemplate = (props) => {
 
   return (
     <Layout location={props.location} title={siteTitle}>
-      <SEO
+      <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />

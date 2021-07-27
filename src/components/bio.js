@@ -4,7 +4,7 @@
  */
 
 import React from "react";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 
@@ -13,7 +13,7 @@ const Bio = () => {
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 250, height: 250) {
+          fixed(width: 200, height: 200) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -32,7 +32,7 @@ const Bio = () => {
   const { author, social } = data.site.siteMetadata;
   return (
     <div className="bio">
-      <SEO title="Daniel Deverell" />
+      <Seo title="Daniel Deverell" />
       <Image fixed={data.avatar.childImageSharp.fixed} alt={author} />
       <h1>Hi! I'm Daniel Deverell</h1>
       <p>
