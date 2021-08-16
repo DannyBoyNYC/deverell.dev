@@ -1,0 +1,40 @@
+.resume {
+  background-color: #fff;
+  padding: 2rem;
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 0.75rem;
+  color: #000;
+  line-height: 1.4;
+
+  .contact-data {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  a {
+    display: none;
+  }
+
+  .experience {
+    margin-bottom: 1.5rem;
+    li {
+      margin: 0.3rem 0;
+    }
+  }
+
+  .intro {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .span {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: smaller;
+  }
+}

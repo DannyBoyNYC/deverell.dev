@@ -1,0 +1,43 @@
+@media print {
+  .resume {
+    * {
+      color: black !important;
+      line-height: 1.4;
+    }
+    body {
+      background-color: white !important;
+      color: black !important;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+      font-size: 0.75rem !important;
+    }
+    .contact-data {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    a {
+      display: none;
+    }
+    .experience {
+      margin-bottom: 1.5rem;
+      li {
+        margin: 0.3rem 0;
+      }
+    }
+    .intro {
+      font-style: italic;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .span {
+      display: inline-block;
+      margin-left: 1rem;
+      font-size: smaller;
+    }
+  }
+}

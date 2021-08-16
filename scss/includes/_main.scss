@@ -22,17 +22,9 @@ body {
   }
   img {
     border-radius: 50%;
+    width: 300px;
+    margin-left: -30px;
   }
-}
-
-.resume {
-  max-width: 640px;
-  margin: 0 auto;
-  color: #fff;
-}
-
-svg {
-  vertical-align: middle;
 }
 
 h1,
@@ -42,22 +34,21 @@ h3 {
 }
 
 a {
-  // text-decoration: none;
-  color: var(--link);
+  color: #fff;
   &:hover {
     text-decoration: underline;
   }
 }
 
-main {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4rem;
-  max-width: 840px;
-}
+// main {
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: 4rem;
+//   max-width: 840px;
+// }
 
-h3.page-header {
-  font-family: Montserrat, sans-serif;
-  margin-top: 0;
-  margin-bottom: 0;
-}
+// h3.page-header {
+//   font-family: Montserrat, sans-serif;
+//   margin-top: 0;
+//   margin-bottom: 0;
+// }

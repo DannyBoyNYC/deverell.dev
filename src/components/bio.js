@@ -6,18 +6,21 @@
 import React from "react";
 import Seo from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";
-import Image from "gatsby-image";
+// import Image from "gatsby-image";
+// import { getImage, GatsbyImage } from "gatsby-plugin-image";
+import bioImage from "../../content/assets/profile-pic.jpg";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 200, height: 200) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
+      # file(relativePath: { eq: "./assets/profile-pic.jpg" }) {
+      #   childImageSharp {
+      #     gatsbyImageData(layout: FIXED)
+      #     fixed(width: 200, height: 200) {
+      #       ...GatsbyImageSharpFixed
+      #     }
+      #   }
+      # }
       site {
         siteMetadata {
           author
@@ -33,7 +36,7 @@ const Bio = () => {
   return (
     <div className="bio">
       <Seo title="Daniel Deverell" />
-      <Image fixed={data.avatar.childImageSharp.fixed} alt={author} />
+      <img src={bioImage} alt="daniel deverell" />
       <h1>Hi! I'm Daniel Deverell</h1>
       <p>
         You've reached the playground of {author} who lives and works in
