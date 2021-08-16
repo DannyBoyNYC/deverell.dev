@@ -3,6 +3,10 @@
  * https://www.gatsbyjs.org/docs/use-static-query/
  */
 
+//  warn [gatsby-transformer-sharp] The "fixed" and "fluid" resolvers are now
+//  deprecated. Switch to "gatsby-plugin-image" for better performance and a simpler
+//   API. See https://gatsby.dev/migrate-images to learn how.
+
 import React from "react";
 import Seo from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";

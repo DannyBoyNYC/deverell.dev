@@ -28,6 +28,14 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-plugin-sass`,
+            options: {
+              // format: "expanded",
+              // extensionName: ".min.css",
+              // savePath: "/src/styles/",
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,

@@ -17,13 +17,13 @@ const Resume = () => {
           <li>158 Underhill Avenue, Brooklyn, NY</li>
           <li>917 865-5517</li>
           <li>
-            <a href="">Github</a>
+            <a href="https://github.com/DannyBoyNYC/">Github</a>
           </li>
         </ul>
         <p className="intro">
-          Front end engineer, teacher and designer. I craft and deliver
-          applications using React, Redux, TypeScript, Apollo, GraphQL, Node,
-          Express, HTML, CSS and JavaScript.
+          Front end engineer, teacher and designer. I develop applications using
+          React, Redux, TypeScript, Apollo, GraphQL, Node and Express. I bring
+          data to life using D3, Mapbox and Chart.js.
         </p>
         <h2>
           New York University, Associate Adjunct Professor
