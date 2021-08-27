@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+// import { graphql } from "gatsby";
 import Bio from "../components/bio";
 // import Layout from "../components/layout";
 // import SEO from "../components/seo";
@@ -11,7 +11,7 @@ const BlogIndex = ({ data, location }) => {
   // const posts = data.allMarkdownRemark.edges;
 
   return (
-    <div style={{ marginTop: "20vh" }}>
+    <div style={{ marginTop: "10vh" }}>
       <Bio />
       {/* SAMPLE LINKS TO OLD CONTENT */}
       {/* https://www.deverell.dev/node-examples/ */}
@@ -52,34 +52,34 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex;
 
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-    file(relativePath: { eq: "Devopop_1296x.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 200) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            # date(formatString: "MMMM DD, YYYY")
-            title
-            description
-          }
-        }
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query {
+//     site {
+//       siteMetadata {
+//         title
+//       }
+//     }
+//     file(relativePath: { eq: "Devopop_1296x.jpg" }) {
+//       childImageSharp {
+//         fluid(maxWidth: 200) {
+//           ...GatsbyImageSharpFluid_withWebp
+//         }
+//       }
+//     }
+//     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+//       edges {
+//         node {
+//           excerpt
+//           fields {
+//             slug
+//           }
+//           frontmatter {
+//              date(formatString: "MMMM DD, YYYY")
+//              title
+//              description
+//            }
+//          }
+//        }
+//      }
+//    }
+//  `;

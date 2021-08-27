@@ -1,30 +1,11 @@
-/**
- * Bio component queries for data using Gatsby's useStaticQuery component
- * https://www.gatsbyjs.org/docs/use-static-query/
- */
-
-//  warn [gatsby-transformer-sharp] The "fixed" and "fluid" resolvers are now
-//  deprecated. Switch to "gatsby-plugin-image" for better performance and a simpler
-//   API. See https://gatsby.dev/migrate-images to learn how.
-
 import React from "react";
 import Seo from "../components/seo";
 import { useStaticQuery, graphql } from "gatsby";
-// import Image from "gatsby-image";
-// import { getImage, GatsbyImage } from "gatsby-plugin-image";
 import bioImage from "../../content/assets/profile-pic.jpg";
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
-      # file(relativePath: { eq: "./assets/profile-pic.jpg" }) {
-      #   childImageSharp {
-      #     gatsbyImageData(layout: FIXED)
-      #     fixed(width: 200, height: 200) {
-      #       ...GatsbyImageSharpFixed
-      #     }
-      #   }
-      # }
       site {
         siteMetadata {
           author
@@ -47,9 +28,17 @@ const Bio = () => {
         Brooklyn building things out of code for fun and profit.
       </p>
       <p>
-        You can follow him on{" "}
-        <a href="https://github.com/DannyBoyNYC">Github</a> and{" "}
-        <a href={`https://twitter.com/${social.twitter}`}>Twitter.</a>
+        By night I teach classes in the full stack web development{" "}
+        <a href="https://www.sps.nyu.edu/professional-pathways/certificates/technology/full-stack-web-development.html">
+          certificate program
+        </a>{" "}
+        at NYU. And by day I work at Barclays Investment Bank, Perksy and Simon
+        Data as a front end developer.
+      </p>
+      <p>
+        You can follow me on <a href="https://github.com/DannyBoyNYC">Github</a>
+        , <a href={`https://twitter.com/${social.twitter}`}>Twitter</a> and view
+        my resume <a href="/resume">here</a>.
       </p>
     </div>
   );

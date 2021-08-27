@@ -35,8 +35,8 @@ const Resume = () => {
             development with Node, ExpressJS and React
           </li>
           <li>
-            Developed curriculum for the MERN (Mongo, Express, React, Node)
-            certificate program
+            Developed curriculum for the MERN stack (Mongo, Express, React,
+            Node) certificate program
           </li>
           <li>Awarded for Excellence in Teaching 2012</li>
         </ul>
@@ -46,8 +46,8 @@ const Resume = () => {
         </h2>
         <ul className="experience">
           <li>
-            Createded integration for SMS and push messaging for the consumer
-            data platform allowing clients to more effectively market across all
+            Created integrations for SMS and push messaging for a consumer data
+            platform allowing clients to more effectively market across all
             channels
           </li>
           <li>
@@ -79,10 +79,14 @@ const Resume = () => {
             Documented and maintained all primary components using StorybookJS
           </li>
           <li>
-            Converted significant portions of the legacy application to React
-            Hooks and TypeScript
+            Developed custom data visualizations using D3 allowing clients to
+            examine data returns spatially using the Mapbox API and drill down
+            to quantitative metrics
           </li>
-          <li>Created custom NPM packages</li>
+          <li>
+            Converted significant portions of the legacy application to
+            TypeScript and React Hooks
+          </li>
         </ul>
         <h2>
           Barclays Investment Bank NY, Front End Engineer
@@ -95,8 +99,8 @@ const Resume = () => {
           </li>
           <li>
             Developed a responsive content creation system with an advanced text
-            editor and complex user roles using React - allowing analysts to
-            publish on phone, tablet and desktop
+            editor, integrated HighCharts and complex user roles using React -
+            allowing analysts to publish on phone, tablet and desktop
           </li>
           <li>
             Developed a research publishing dashboard with web analytics to show
