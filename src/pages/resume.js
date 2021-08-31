@@ -1,13 +1,14 @@
 import React from "react";
+import Layout from "../components/layout";
 import { Link } from "gatsby";
 import Seo from "../components/seo";
-// import Bio from "../components/bio";
+import { Container } from "../styles/resume";
 
 const Resume = () => {
   return (
-    <>
-      <Seo title="Daniel Deverell Resume" />
-      <div className="resume">
+    <Layout>
+      <Seo title="Resume - Daniel Deverell" />
+      <Container>
         <h1>Resume</h1>
         <ul className="contact-data">
           <li>
@@ -17,7 +18,7 @@ const Resume = () => {
           <li>158 Underhill Avenue, Brooklyn, NY</li>
           <li>917 865-5517</li>
           <li>
-            <a href="https://github.com/DannyBoyNYC/">Github</a>
+            <Link href="https://github.com/DannyBoyNYC/">Github</Link>
           </li>
         </ul>
         <p className="intro">
@@ -38,7 +39,7 @@ const Resume = () => {
             Developed curriculum for the MERN stack (Mongo, Express, React,
             Node) certificate program
           </li>
-          <li>Awarded for Excellence in Teaching 2012</li>
+          <li>Received award for Excellence in Teaching</li>
         </ul>
         <h2>
           Simon Data NY, Full Stack Engineer
@@ -98,25 +99,29 @@ const Resume = () => {
             research distribution on the bank’s broker/dealer portal
           </li>
           <li>
-            Developed a responsive content creation system with an advanced text
-            editor, integrated HighCharts and complex user roles using React -
-            allowing analysts to publish on phone, tablet and desktop
+            Developed a content creation system with an advanced text editor,
+            integrated HighCharts and complex user roles using React - allowing
+            analysts to publish on phone, tablet and desktop
           </li>
           <li>
-            Developed a research publishing dashboard with web analytics to show
-            traffic and user engagement - allowing management to determine the
-            evolution of research offerings
+            Developed a research dashboard with web analytics to show traffic
+            and user engagement - allowing management to determine the evolution
+            of research offerings
           </li>
           <li>
             Transitioned from SASS to CSS in JS and evolved the investment
-            bank’s module library using GatsbyJS, React and Storybook -
-            dramatically increasing the speed of UI development
+            bank’s module library and documentation using GatsbyJS, React and
+            Storybook - dramatically increasing the speed of UI development
+          </li>
+          <li>
+            Lead design &amp; UX of Barclays smartphone app that delivers
+            investment bank research to institutional clients
           </li>
         </ul>
 
         <Link to="/">Home</Link>
-      </div>
-    </>
+      </Container>
+    </Layout>
   );
 };
 

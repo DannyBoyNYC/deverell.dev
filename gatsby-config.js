@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Applied Procrastination`,
+    title: `Ex Libris`,
     author: `Daniel Deverell`,
     description: `A platform for experiementing with Gatsby, React, web design and development`,
     siteUrl: `https://deverell.dev/`,
@@ -27,26 +27,13 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            resolve: `gatsby-plugin-sass`,
-            options: {
-              // format: "expanded",
-              // extensionName: ".min.css",
-              // savePath: "/src/styles/",
-            },
-          },
+          `gatsby-plugin-styled-components`,
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
             },
           },
-          // {
-          //   resolve: `gatsby-remark-responsive-iframe`,
-          //   options: {
-          //     wrapperStyle: `margin-bottom: 1.0725rem`,
-          //   },
-          // },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -56,7 +43,6 @@ module.exports = {
           },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-
           `gatsby-plugin-image`,
           `gatsby-plugin-sharp`,
           `gatsby-transformer-sharp`,

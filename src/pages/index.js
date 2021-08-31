@@ -1,17 +1,15 @@
 import React from "react";
 // import { graphql } from "gatsby";
 import Bio from "../components/bio";
-// import Layout from "../components/layout";
+import { Container } from "../styles/bio";
 // import SEO from "../components/seo";
-import "../styles/styles.min.css";
-// import Hero from "../components/hero";
 
 const BlogIndex = ({ data, location }) => {
   // const siteTitle = data.site.siteMetadata.title;
   // const posts = data.allMarkdownRemark.edges;
 
   return (
-    <div style={{ marginTop: "10vh" }}>
+    <Container>
       <Bio />
       {/* SAMPLE LINKS TO OLD CONTENT */}
       {/* https://www.deverell.dev/node-examples/ */}
@@ -46,7 +44,7 @@ const BlogIndex = ({ data, location }) => {
           );
         })}
       </Layout> */}
-    </div>
+    </Container>
   );
 };
 

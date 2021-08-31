@@ -1,11 +1,11 @@
 import React from "react";
-import { Header } from "./header";
+import { GlobalStyles } from "../styles/global";
 
-const Layout = ({ title, children }) => {
+const Layout = ({ children }) => {
   return (
     <main>
-      <Header title={title} />
-      <main>{children}</main>
+      <GlobalStyles />
+      {children}
     </main>
   );
 };
