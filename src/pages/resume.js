@@ -123,11 +123,11 @@ const Resume = () => {
         <ul className="experience">
           <li>
             I've designed and developed many community and non-profit projects
-            using NextJS, GatsbyJS, Svelte and Netlify.
+            primarily using NextJS, Gatsby, Eleventy, Svelte and Netlify
           </li>
           <li>
             Experienced with headless content management systems including
-            Sanity, Contentful and Keystone.
+            Sanity, Contentful and Keystone
           </li>
         </ul>
 
