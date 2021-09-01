@@ -114,8 +114,20 @@ const Resume = () => {
             Storybook - dramatically increasing the speed of UI development
           </li>
           <li>
-            Lead design &amp; UX of Barclays smartphone app that delivers
-            investment bank research to institutional clients
+            Created webviews for the Barclays smartphone app to deliver
+            investment bank research to mobile users
+          </li>
+        </ul>
+
+        <h2>Pro Bono</h2>
+        <ul className="experience">
+          <li>
+            I've designed and developed many community and non-profit projects
+            using NextJS, GatsbyJS, Svelte and Netlify.
+          </li>
+          <li>
+            Experienced with headless content management systems including
+            Sanity, Contentful and Keystone.
           </li>
         </ul>
 
