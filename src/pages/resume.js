@@ -17,9 +17,9 @@ const Resume = () => {
           <li>daniel.deverell@gmail.com</li>
           <li>158 Underhill Avenue, Brooklyn, NY</li>
           <li>917 865-5517</li>
-          <li>
+          {/* <li>
             <Link href="https://github.com/DannyBoyNYC/">Github</Link>
-          </li>
+          </li> */}
         </ul>
         <p className="intro">
           Front end engineer, teacher and designer. I develop applications using
