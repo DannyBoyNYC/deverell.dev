@@ -16,7 +16,7 @@ const Resume = () => {
           </li>
           <li>daniel.deverell@gmail.com</li>
           <li>158 Underhill Avenue, Brooklyn, NY</li>
-          <li>917 865-5517</li>
+          {/* <li>917 865-5517</li> */}
           {/* <li>
             <Link href="https://github.com/DannyBoyNYC/">Github</Link>
           </li> */}
@@ -126,8 +126,8 @@ const Resume = () => {
             primarily using NextJS, Gatsby, Eleventy, Svelte and Netlify
           </li>
           <li>
-            Experienced with headless content management systems including
-            Sanity, Contentful and Keystone
+            For these I typically use a headless content management systems such
+            as Sanity, Contentful or Keystone
           </li>
         </ul>
 
