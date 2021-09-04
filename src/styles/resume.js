@@ -14,7 +14,10 @@ export const Container = styled.div`
     list-style: none;
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    > .contact {
+      margin-left: 2rem;
+    }
   }
 
   a {
@@ -30,8 +33,9 @@ export const Container = styled.div`
   }
 
   .intro {
-    font-style: italic;
-    line-height: 1.6;
+    /* font-style: italic; */
+    font-size: 1rem;
+    line-height: 1.4;
     margin-bottom: 2rem;
     width: 80ch;
   }

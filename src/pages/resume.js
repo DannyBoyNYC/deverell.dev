@@ -14,20 +14,21 @@ const Resume = () => {
           <li>
             <h2>Daniel Deverell</h2>
           </li>
-          <li>daniel.deverell@gmail.com</li>
-          <li>158 Underhill Avenue, Brooklyn, NY</li>
+          <li className="contact">daniel.deverell@gmail.com</li>
+          <li className="contact">158 Underhill Avenue, Brooklyn, NY</li>
           {/* <li>917 865-5517</li> */}
           {/* <li>
             <Link href="https://github.com/DannyBoyNYC/">Github</Link>
           </li> */}
         </ul>
         <p className="intro">
-          Front end engineer, teacher and designer. I develop applications using
+          Frontend engineer, teacher and designer. I develop applications using
           React, Redux, TypeScript, Apollo, GraphQL, Node and Express. I bring
-          data to life using D3, Mapbox and Chart.js.
+          data to life using D3, Mapbox, Chart.js and AfterEffects.
         </p>
         <h2>
-          New York University, Associate Adjunct Professor
+          New York University
+          <span className="span">Associate Adjunct Professor</span>
           <span className="span">1995~present</span>
         </h2>
         <ul className="experience">
@@ -42,7 +43,7 @@ const Resume = () => {
           <li>Received award for Excellence in Teaching</li>
         </ul>
         <h2>
-          Simon Data NY, Full Stack Engineer
+          Simon Data NY <span className="span">Full Stack Engineer</span>
           <span className="span">April 2021~June 2021</span>
         </h2>
         <ul className="experience">
@@ -61,7 +62,7 @@ const Resume = () => {
           </li>
         </ul>
         <h2>
-          Perksy NY, Front End Engineer
+          Perksy NY <span className="span">Front End Engineer</span>
           <span className="span">Oct 2019~Oct 2020</span>
         </h2>
         <ul className="experience">
@@ -90,7 +91,8 @@ const Resume = () => {
           </li>
         </ul>
         <h2>
-          Barclays Investment Bank NY, Front End Engineer
+          Barclays Investment Bank{" "}
+          <span className="span">Front End Engineer</span>
           <span className="span">2008~Sept 2019</span>
         </h2>
         <ul className="experience">
