@@ -33,11 +33,12 @@ export const Container = styled.div`
   }
 
   .intro {
-    /* font-style: italic; */
-    font-size: 1rem;
+    font-size: 0.875rem;
     line-height: 1.4;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
     width: 80ch;
+    border-bottom: 1px solid #00000033;
   }
 
   .span {

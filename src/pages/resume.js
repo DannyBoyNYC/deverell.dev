@@ -22,9 +22,9 @@ const Resume = () => {
           </li> */}
         </ul>
         <p className="intro">
-          Frontend engineer, teacher and designer. I develop applications using
-          React, Redux, TypeScript, Apollo, GraphQL, Node and Express. I bring
-          data to life using D3, Mapbox, Chart.js and AfterEffects.
+          Front end engineer, teacher and designer. I develop applications using
+          React, Redux, TypeScript, Apollo, GraphQL, Node and Express. And I
+          bring data to life using D3, Mapbox, Chart.js and AfterEffects.
         </p>
         <h2>
           New York University
@@ -34,13 +34,13 @@ const Resume = () => {
         <ul className="experience">
           <li>
             Teach intermediate and advanced classes in full stack web
-            development with Node, ExpressJS and React
+            development with Node, Express, React and Eleventy
           </li>
           <li>
             Developed curriculum for the MERN stack (Mongo, Express, React,
             Node) certificate program
           </li>
-          <li>Received award for Excellence in Teaching</li>
+          <li>Received award for Excellence in Teaching in 2012</li>
         </ul>
         <h2>
           Simon Data NY <span className="span">Full Stack Engineer</span>
