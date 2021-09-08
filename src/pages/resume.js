@@ -9,7 +9,15 @@ const Resume = () => {
     <Layout>
       <Seo title="Resume - Daniel Deverell" />
       <Container>
-        <h1>Resume</h1>
+        <div className="head">
+          <h1>Resume</h1>
+          <p className="linktext">
+            <a href="https://deverell.dev/resume">
+              For the latest version: https://deverell.dev/resume
+            </a>
+          </p>
+        </div>
+
         <ul className="contact-data">
           <li>
             <h2>Daniel Deverell</h2>
@@ -22,7 +30,7 @@ const Resume = () => {
           </li> */}
         </ul>
         <p className="intro">
-          Front end engineer, teacher and designer. I develop applications using
+          Frontend engineer, teacher and designer. I develop applications using
           React, Redux, TypeScript, Apollo, GraphQL, Node and Express. And I
           bring data to life using D3, Mapbox, Chart.js and AfterEffects.
         </p>
@@ -62,7 +70,7 @@ const Resume = () => {
           </li>
         </ul>
         <h2>
-          Perksy NY <span className="span">Front End Engineer</span>
+          Perksy NY <span className="span">Frontend Engineer</span>
           <span className="span">Oct 2019~Oct 2020</span>
         </h2>
         <ul className="experience">
@@ -92,7 +100,7 @@ const Resume = () => {
         </ul>
         <h2>
           Barclays Investment Bank{" "}
-          <span className="span">Front End Engineer</span>
+          <span className="span">Frontend Engineer</span>
           <span className="span">2008~Sept 2019</span>
         </h2>
         <ul className="experience">

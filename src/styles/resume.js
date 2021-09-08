@@ -24,6 +24,16 @@ export const Container = styled.div`
     color: inherit;
   }
 
+  .head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    p a {
+      /* text-decoration: underline; */
+      color: #666;
+    }
+  }
+
   .experience {
     margin-bottom: 1.5rem;
     li {
@@ -63,6 +73,9 @@ export const Container = styled.div`
     }
     a {
       display: none;
+    }
+    .head a {
+      display: inline;
     }
     .experience {
       margin-bottom: 1.5rem;
