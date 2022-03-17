@@ -25,7 +25,7 @@ const Bio = () => {
         <Seo title="Daniel Deverell" />
         <div className="image-container">
           <img src={bioImage} alt="daniel deverell" />
-          <div class="gradient blurry"></div>
+          <div className="gradient blurry"></div>
         </div>
         <h1>Hi! I'm Daniel Deverell</h1>
         <p>
